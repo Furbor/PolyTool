@@ -12,4 +12,6 @@ Ensuite je me suis renseigné sur les differents modules dont nous auront besoin
 
 -Pour le capteur de lumière, nous utiliserons <a href="https://www.amazon.fr/Sodial-20x-Photor%C3%A9sistances-50-100-kOhms/dp/B00HUHC9D2/ref=sr_1_4?ie=UTF8&qid=1544439506&sr=8-4&keywords=photor%C3%A9sistance+arduino">une photorésistance</a>. Cette photorésistance va renvoyer une certaine tension, si la tension atteint un seuil, plusieurs LED s'allumeront.
 
+-Pour le rythme cardiaque, un capteur pulse sensor sera utilisé.
+
 Je me suis ensuite renseigner sur l'effet hall qui va permettre de mettre en place notre compteur de kilomètre ainsi que celui de vitesse. Cette effet est très bien expliquer <a href="http://etronics.free.fr/dossiers/analog/analog48/capthall.htm"> ici</a>.
