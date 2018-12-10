@@ -14,6 +14,6 @@
 
 • Pour le <em>compteur kilométrique</em> et le <em>compteur de vitesse</em>, je pense que nous avons besoin d'un unique module, qui fera les deux options en même temps en travaillant sur le code Arduino directement. Après avoir demandé de explications à M. Pascal Masson sur le fonctionnement de l'<strong>effet Hall</strong>, il m'a donné un module permettant de faire le <em>compteur kilométrique</em> (et je l'espère le <em>compteur de vitesse</em>, par le biais de ce module. Les informations concernant ce module se trouve <a href="http://lien-du-TD4-d-elec3-de-pmasson">ici</a>. De ce que j'ai retenu, il faudra détecter un changement de tension, lors du passage de l'aimant devant le module <strong>LOGO-sensor Ver1.3</strong>.
 
-• Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube (comme <a href="https://www.youtube.com/watch?v=bn3KiEK4wJ0">celle-ci</a>, qui va vraisemblablement bien nous aider pour le <em>thermomètre de l'air ambiant</em> en Arduino).
+• J'ai alors testé le module <strong>LOGO-sensor Ver1.3</strong>, dont le code est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20Ver1.3.ino">ici</a>, mais un problème persiste. Il ne semble pas faire le distintion entre la présence d'aimant ou non.
 
-• 
+• Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube (comme <a href="https://www.youtube.com/watch?v=bn3KiEK4wJ0">celle-ci</a>, qui va vraisemblablement bien nous aider pour le <em>thermomètre de l'air ambiant</em> en Arduino).
