@@ -8,3 +8,4 @@ Ici, j'écrirais tous mes rapports de séances.
     • Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube.
 
     • J'ai également fait le diagramme de Gantt.
+
