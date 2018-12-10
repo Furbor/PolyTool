@@ -8,7 +8,7 @@ Ici, j'écrirais tous mes rapports de séances.
 
 • Pour le compteur kilométrique et le compteur de vitesse, je pense que nous avons besoin d'un unique module, qui fera les deux options en même temps en travaillant sur le code Arduino directement.
 
-• Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube.
+• Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube, dont la suivante : https://www.youtube.com/watch?v=bn3KiEK4wJ0, qui va vraisemblablement ien nous aider pour le thermomètre en Arduino.
 
 • Nous avons également réfléchi quant à la répartition des tâches pour les différents modules et j'ai commencé à réaliser le diagramme de Gantt.
 
