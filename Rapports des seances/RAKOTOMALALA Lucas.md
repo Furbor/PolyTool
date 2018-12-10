@@ -1,4 +1,4 @@
-Ici, j'écrirais tous mes rapports de séances.
+<strong>Ici, j'écrirais tous mes rapports de séances.</strong>
     
 <h2>• Rapport de la séance du 10 Décembre 2018 :</h2>
 
