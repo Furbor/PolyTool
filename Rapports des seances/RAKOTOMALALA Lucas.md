@@ -1,12 +1,12 @@
 <strong>Ici, j'écrirais tous mes rapports de séances.</strong>
     
-<h2>• Rapport de la séance du 10 Décembre 2018 :</h2>
+<h2>• Rapport de la séance du Lundi 10 Décembre 2018 :</h2>
 
 • Nous avons commencé par la création du GitHub pour le projet Arduino.
 
 • Après avoir regardé les différents sites et nos besoins, j'ai conclu que le coût projet s'élèverait au maximum à 50€. Le prix sera développé dans le <strong>cahier des charges</strong>.
 
-• Nous avons également réfléchi quant à la répartition des tâches pour les différents modules et j'ai commencé à réaliser le diagramme de Gantt.
+• Nous avons également réfléchi quant à la répartition des tâches pour les différents modules et j'ai commencé à réaliser le <strong>diagramme de Gantt</strong>. J'essaierai de le finaliser avant la prochaine séance, c'est-à-dire avant le <u>lundi 17 décembre 2018</u>.
 
 • J'ai commencé à écrire le <strong>cahier des charges</strong> afin que nous ayons une idée plus précise des choses à faire.
 
