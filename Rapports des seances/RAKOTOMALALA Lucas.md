@@ -1,8 +1,8 @@
 Ici, j'écrirais tous mes rapports de séances.
     
-- Rapport de la séance du 10 Décembre 2018 :
+<h1>Rapport de la séance du 10 Décembre 2018 :</h1>
 
-• Nous avons commencé par la création du GitHub.
+<quote>Nous avons commencé par la création du GitHub.
 
 • Nous nous sommes ensuite renseignés quant aux différents modules à utiliser. Je me suis occupé de trouver quelques modules, comme le capteur de pouls, dont le lien est le suivant : https://www.amazon.fr/Capteur-pouls-capteur-cardiaque-Arduino/dp/B01DKET4LS
 
@@ -10,5 +10,5 @@ Ici, j'écrirais tous mes rapports de séances.
 
 • Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube, dont la suivante : https://www.youtube.com/watch?v=bn3KiEK4wJ0, qui va vraisemblablement ien nous aider pour le thermomètre en Arduino.
 
-• Nous avons également réfléchi quant à la répartition des tâches pour les différents modules et j'ai commencé à réaliser le diagramme de Gantt.
+• Nous avons également réfléchi quant à la répartition des tâches pour les différents modules et j'ai commencé à réaliser le diagramme de Gantt.</quote>
 
