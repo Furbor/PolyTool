@@ -1,8 +1,8 @@
 Ici, j'écrirais tous mes rapports de séances.
     
-<h1>• Rapport de la séance du 10 Décembre 2018 :</h1>
+<h2>• Rapport de la séance du 10 Décembre 2018 :</h2>
 
-<q>Nous avons commencé par la création du GitHub.
+•Nous avons commencé par la création du GitHub.
 
 • Nous nous sommes ensuite renseignés quant aux différents modules à utiliser. Je me suis occupé de trouver quelques modules, comme le <em>capteur de pouls</em>, dont le lien est le suivant : https://www.amazon.fr/Capteur-pouls-capteur-cardiaque-Arduino/dp/B01DKET4LS
 
