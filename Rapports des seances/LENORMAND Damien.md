@@ -15,3 +15,6 @@ Ensuite je me suis renseigné sur les differents modules dont nous auront besoin
 -Pour le rythme cardiaque, un capteur pulse sensor sera utilisé.
 
 Je me suis ensuite renseigner sur l'effet hall qui va permettre de mettre en place notre compteur de kilomètre ainsi que celui de vitesse. Cette effet est très bien expliquer <a href="http://etronics.free.fr/dossiers/analog/analog48/capthall.htm"> ici</a>.
+
+Une fois la recherche des éléments terminée, nous avons essayé le module Sensor, pour le compteur de vitesse et kilomètre, afin de regarder ce que le module nous renvoie.
+J'ai aussi commencer à chercher la formule pour convertir le nombre de tour par minute en km/h.
