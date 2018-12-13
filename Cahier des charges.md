@@ -39,6 +39,6 @@ En effet, voici ce dont nous avons besoin, avec le prix et le lien où nous pouv
 <br>
   • 1 aimant.
 <br>
-  • 1 vélo. Dans notre cas, l'<strong>armature d'une roue de vélo</strong> suffira pour les diférents tests
+  • 1 vélo. Dans notre cas, l'<strong>armature d'une roue de vélo</strong> suffira pour les différents tests?
 <h1>Délais de réalisation :</h1>
-Je vous invite à voir le diagramme de Gantt que nous avons réalisé. Il est disponible sera prochainement disponible <a href="Diagramme%20de%20Gantt%20-%20PolyTool">ici</a>.
+Je vous invite à voir le diagramme de Gantt que nous avons réalisé. Il est disponible sera prochainement disponible ci-dessous.
