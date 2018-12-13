@@ -8,6 +8,7 @@ Offrir un outil délivrant des informations importantes au cycliste durant son p
 <h1>Description fonctionnel du projet :</h1>
 Le fonctionnement de <em>PolyTool</em> est simple. Lorsque l'utilisateur sera en train de pédaler, des informations seront récoltées grâce aux différents modules et vont permettre de lui donner des informations utiles tout au long de son trajet.
 Le projet aura pour but de :
+<br>
 • donner la température ambiante
 
 • donner la température corporelle de l'utilisateur
@@ -20,7 +21,7 @@ Le projet aura pour but de :
 <h1>Enveloppe budgétaire :</h1>
 Le prix global du projet n'excède pas 25€ (en prenant en compte le fait que nous disposons déjà d'une carte Arduino). On peut monter jusqu'à 35€ en fonction des prix du marché.
 En effet, voici ce dont nous avons besoin, avec le prix et le lien où nous pouvons retrouver les modules :
-
+<br>
   • <a href="https://www.conrad.fr/p/texas-instruments-lm-335-z-capteur-de-temperature-40-a-100-c-to-92-sortie-radiale-176656">Texas Instruments LM 335 Z Capteur de température -40 à +100 °C TO-92 sortie radiale</a>.
   <strong>Prix :</strong> 2,27€.
 
