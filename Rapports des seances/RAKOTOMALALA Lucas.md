@@ -4,7 +4,7 @@
 
 • Nous avons commencé par la création du GitHub pour le projet Arduino.
 
-• Après avoir regardé les différents sites et nos besoins, j'ai conclu que le coût projet s'élèverait au maximum à 50€. Un prix plus juste développé dans le <strong><a href="https://github.com/PolyTool/PolyTool/blob/master/Cahier%20des%20charges.md">cahier des charges</a></strong>.
+• Après avoir regardé les différents sites et nos besoins, j'ai conclu que le coût projet s'élèverait au maximum à 50€. Un prix plus juste est développé dans le <strong><a href="https://github.com/PolyTool/PolyTool/blob/master/Cahier%20des%20charges.md">cahier des charges</a></strong>.
 
 • Nous avons également réfléchi quant à la répartition des tâches pour les différents modules et j'ai commencé à réaliser le <strong>diagramme de Gantt</strong>. J'essaierai de le finaliser avant la prochaine séance, c'est-à-dire avant le <strong>lundi 17 décembre 2018</strong>.
 
