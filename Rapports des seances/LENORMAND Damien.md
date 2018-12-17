@@ -18,3 +18,6 @@ Je me suis ensuite renseigner sur l'effet hall qui va permettre de mettre en pla
 
 Une fois la recherche des éléments terminée, nous avons essayé le module Sensor, pour le compteur de vitesse et kilomètre, afin de regarder ce que le module nous renvoie.
 J'ai aussi commencé à chercher la formule pour convertir le nombre de tour par minute en km/h.
+
+<h2>- Séance du 17 décembre :</h2>
+
