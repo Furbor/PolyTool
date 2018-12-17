@@ -18,3 +18,9 @@
 <br><img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/LOGO-sensor%20Ver1.3.png" alt="Image LOGO-sensor Ver1.3">
 
 • Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube (comme <a href="https://www.youtube.com/watch?v=bn3KiEK4wJ0">celle-ci</a>, qui va vraisemblablement bien nous aider pour le <em>thermomètre de l'air ambiant</em> en Arduino).
+
+<h2>• Rapport de la séance du Lundi 17 Décembre 2018 :</h2>
+
+• Tout d'abord, j'ai commencé par remarquer qu'il manquait une soudure dans le <strong>LOGO-sensor Ver1.3</strong>. J'ai alors tenté de souder la patte qui ne l'était pas. Pour autant, le programme, que j'ai modifié en ajoutant des commentaires ne semble toujours pas faire ce que l'ont veut, c'est-à-dire détecter la présence d'un aimant. Le montage de ce module est montré ci-dessous :
+<br><img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Montage%20LOGO-sensor%20Ver1.3.png" alt="Montage du LOGO-sensor Ver1.3">
+
