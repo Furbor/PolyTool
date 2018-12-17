@@ -35,9 +35,9 @@
 Après quelques recherches, je suis tombé sur <a href="https://letmeknow.fr/blog/2016/09/22/tuto-mise-en-place-du-capteur-pulse-sensor/">ce site</a>.
 <br>
 Cependant, il ne semble pas être assez complet, puisqu'il ne renvoie pas ce que nous souhaitons pour notre projet.
-<br>Ainsi, après quelques recherches, je suis tombé sur <a href="https://www.generationrobots.com/media/DetecteurDePoulsAmplifie/PulseSensorAmpedGettingStartedGuide.pdf">ce site</a>. Mon camarade <strong>Damien</strong> a alors essayé de faire fonctionner le programme en le modifiant (<a href="https://github.com/PolyTool/PolyTool/edit/master/Rapports%20des%20seances/LENORMAND%20Damien.md">cf son compte-rendu<a>).
+<br>Ainsi, après quelques recherches, je suis tombé sur <a href="https://www.generationrobots.com/media/DetecteurDePoulsAmplifie/PulseSensorAmpedGettingStartedGuide.pdf">ce site</a>. Mon camarade <strong>Damien</strong> a alors essayé de faire fonctionner le programme en le modifiant (cf : <a href="https://github.com/PolyTool/PolyTool/edit/master/Rapports%20des%20seances/LENORMAND%20Damien.md">son compte-rendu<a>).
 <br>J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'apparente à être le site officiel du <strong>Pulse sensor</strong>. Je me suis alors documenté sur les différentes étapes à effectuer pour faire un <strong>Pulse sensor</strong> cohérent avec notre projet. En suivant le site, j'ai trouvé la librairie <em>PulseSensor</em> et je l'ai installé dans mon logiciel <em>Arduino</em>.
     
  • J'ai également fait le montage du <strong>Pulse sensor</strong> que voici :
  <br>
- <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20Sensor%20-%20Montage.png" alt="Montage du Pulse sensor">
+ <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor%20-%20Montage.png" alt="Montage du Pulse sensor">
