@@ -19,7 +19,7 @@
 
 • Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube (comme <a href="https://www.youtube.com/watch?v=bn3KiEK4wJ0">celle-ci</a>, qui va vraisemblablement bien nous aider pour le <em>thermomètre de l'air ambiant</em> en Arduino).
 
-
+<hr>
 
 <h2>• Rapport de la séance du Lundi 17 Décembre 2018 :</h2>
 
@@ -27,3 +27,6 @@
 <br><img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Montage%20LOGO-sensor%20Ver1.3.png" alt="Montage du LOGO-sensor Ver1.3">
 
 • J'ai également récupéré le <strong>Pulse sensor</strong>, et après quelques recherches, je suis tombé sur <a href="https://letmeknow.fr/blog/2016/09/22/tuto-mise-en-place-du-capteur-pulse-sensor/">ce site</a>.
+<br>
+Cependant, il ne semble pas être assez complet, puisqu'il ne renvoie pas ce que nous souhaitons pour notre projet.
+<br>Ainsi, après quelques recherches, je suis tombé sur <a href="https://www.generationrobots.com/media/DetecteurDePoulsAmplifie/PulseSensorAmpedGettingStartedGuide.pdf">ce site</a>. J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'apparente à être le site officiel du <strong>Pulse sensor</strong>
