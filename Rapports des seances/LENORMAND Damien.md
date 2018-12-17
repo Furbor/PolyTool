@@ -23,7 +23,7 @@ J'ai aussi commencé à chercher la formule pour convertir le nombre de tour par
 
 -Dans un premier temps, j'ai modifié le programme du LOGO-sensor en y ajoutant les formule du nombre de kilomètre parcouru ainsi que celle de la vitesse(moyenne et instantanée). Pour l'insant l'aimant n'est toujours pas détecté. Le programme est dans le dossier Code sur ce Github, il renvoie le nombre de kilomètre parcouru au total ainsi que la vitesse instantanée et la vitesse moyenne.
 
--Après branchement du capteur pulse sensor sur la carte Arduino, je me suis concentré sur le programme pour le capteur pouls sensor. A l'aide de plusieurs programme, j'ai finalement écrit un programme qui nous renvoie le battement seul. Ce programme nous renvoie bien le rythme cardiaque pour chaque battementsi la pulsation est assez forte poyr que le capteur la ressente. Le porgramme est disponible dans le dossier Code sur le Github.
+-Après branchement du capteur pulse sensor sur la carte Arduino, je me suis concentré sur le programme pour le capteur pouls sensor. A l'aide de plusieurs programme, j'ai finalement écrit un programme qui nous renvoie le battement seul. Ce programme nous renvoie bien le rythme cardiaque pour chaque battementsi la pulsation est assez forte poyr que le capteur la ressente. Le <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Pulse%20sensor.ino">programme</a> est disponible dans le dossier Code sur le Github. 
 
 
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor%20-%20Montage.png"/>
