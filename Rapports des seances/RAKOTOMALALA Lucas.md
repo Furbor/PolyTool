@@ -39,3 +39,10 @@ Cependant, ce qui nous est founi ne semble pas être assez complet, puisqu'il ne
 <br>J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'apparente à être le site officiel du <strong>Pulse sensor</strong>. Je me suis alors documenté sur les différentes étapes à effectuer pour faire un <strong>Pulse sensor</strong> cohérent avec notre projet : j'ai installé les différentes parties adhésives (pour qu'à l'avenir les mesures soient moins faussées et pour une certaine longévité du module) et j'ai trouvé la librairie <em>PulseSensor</em>, que j'ai alors installé dans mon logiciel <em>Arduino</em>. Cela va nous permettre  de communiquer correctement avec ce nouveau module, par le bias du logiciel <em>Arduino</em> et de la carte du même nom.
     
  • Après avoir fait quelques tests plutôt convainquants pour le module <strong>Pulse sensor</strong>, je suis retourné sur le module <strong>LOGO-sensor Ver1.3</strong>. Après avoir soudé correctement (comme annoncé plus haut) la patte qui ne l'était pas (comme <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/LOGO-sensor%20Ver1.3%20soudé.png">ceci</a>), nous avons essayé de nouveau de faire fonctionner le module. Rien de convaincant encore une fois. J'ai d'ailleurs mis à jour le <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20Ver1.3%20(2.0).ino">programme associé</a>, en ajoutant des commentaires et des <em>print</em> pour savoir où on en est dans le programme.
+
+<hr>
+
+<h2>• Pendant les vacances de Noël :</h2>
+• J'ai apporté quelques informations supplémentaires suite au mail de <strong>Pascal Masson</strong>.
+
+• J'ai mis en ligne le <strong>Diagramme de Gantt</strong> du projet. Il est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Diagramme%20de%20Gantt.png">ici</a>, ainsi que dans le rubrique <strong>Délais de réalisation</strong> du <a href="https://github.com/PolyTool/PolyTool/blob/master/Cahier%20des%20charges.md">Cahier des charges</a>.
