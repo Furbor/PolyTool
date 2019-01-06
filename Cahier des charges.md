@@ -42,5 +42,4 @@ En effet, voici ce dont nous avons besoin, avec le prix et le lien où nous pouv
   • 1 vélo. Dans notre cas, l'<strong>armature d'une roue de vélo</strong> suffira pour les différents tests (?).
 <h1>Délais de réalisation :</h1>
 Je vous invite à voir le diagramme de Gantt que nous avons réalisé. Il est disponible ci-dessous, ou encore <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Diagramme%20de%20Gantt.png">ici</a>.
-<br>
-<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Diagramme%20de%20Gantt.png" alt="Diagramme de Gantt du projet PolyTool"/>
+<img src="https://raw.githubusercontent.com/PolyTool/PolyTool/master/Ressources/Diagramme%20de%20Gantt.png" alt="Diagramme de Gantt du projet PolyTool"/>
