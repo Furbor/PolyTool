@@ -38,7 +38,7 @@ Cependant, ce qui nous est founi ne semble pas être assez complet, puisqu'il ne
 <br>Ainsi, j'ai donc continué mes recherches, et je suis finalement tombé sur <a href="https://www.generationrobots.com/media/DetecteurDePoulsAmplifie/PulseSensorAmpedGettingStartedGuide.pdf">ce site</a>. Mon camarade <strong>Damien</strong> a alors essayé de faire fonctionner le programme en le modifiant (cf : <a href="https://github.com/PolyTool/PolyTool/blob/master/Rapports%20des%20seances/LENORMAND%20Damien.md#--s%C3%A9ance-du-17-d%C3%A9cembre-">son compte-rendu<a>).
 <br>J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'apparente à être le site officiel du <strong>Pulse sensor</strong>. Je me suis alors documenté sur les différentes étapes à effectuer pour faire un <strong>Pulse sensor</strong> cohérent avec notre projet : j'ai installé les différentes parties adhésives (pour qu'à l'avenir les mesures soient moins faussées et pour une certaine longévité du module) et j'ai trouvé la librairie <em>PulseSensor</em>, que j'ai alors installé dans mon logiciel <em>Arduino</em>. Cela va nous permettre  de communiquer correctement avec ce nouveau module, par le bias du logiciel <em>Arduino</em> et de la carte du même nom.
     
- • Après avoir fait quelques tests plutôt convainquants pour le module <strong>Pulse sensor</strong>, je suis retourné sur le module <strong>LOGO-sensor Ver1.3</strong>. Après avoir soudé correctement (comme annoncé plus haut) la patte qui ne l'était pas (comme <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/LOGO-sensor%20Ver1.3%20soudé.png">ceci</a>), nous avons essayé de nouveau de faire fonctionner le module. Rien de convaincant encore une fois. J'ai d'ailleurs mis à jour le <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20Ver1.3%20(2.0).ino">programme associé</a>, en ajoutant des commentaires et des <em>print</em> pour savoir où on en est dans le programme.
+• Après avoir fait quelques tests plutôt convainquants pour le module <strong>Pulse sensor</strong>, je suis retourné sur le module <strong>LOGO-sensor Ver1.3</strong>. Après avoir soudé correctement (comme annoncé plus haut) la patte qui ne l'était pas (comme <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/LOGO-sensor%20Ver1.3%20soudé.png">ceci</a>), nous avons essayé de nouveau de faire fonctionner le module. Rien de convaincant encore une fois. J'ai d'ailleurs mis à jour le <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20Ver1.3%20(2.0).ino">programme associé</a>, en ajoutant des commentaires et des <em>print</em> pour savoir où on en est dans le programme.
 
 <hr>
 
@@ -46,3 +46,14 @@ Cependant, ce qui nous est founi ne semble pas être assez complet, puisqu'il ne
 • J'ai apporté quelques informations supplémentaires suite au mail de <strong>Pascal Masson</strong>.
 
 • J'ai mis en ligne le <strong>Diagramme de Gantt</strong> du projet. Il est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Diagramme%20de%20Gantt.png">ici</a> (ou <a href="https://raw.githubusercontent.com/PolyTool/PolyTool/master/Ressources/Diagramme%20de%20Gantt.png">ici</a> pour le voir en plus grand), ainsi que dans le rubrique <strong>Délais de réalisation</strong> du <a href="https://github.com/PolyTool/PolyTool/blob/master/Cahier%20des%20charges.md">Cahier des charges</a>.
+
+<hr>
+
+<h2>• Rapport de la séance du Lundi 7 Janvier 2019 :</h2>
+• À la fin de la séance du Lundi 17 Décembre 2018, j'ai réussi à faire fonctionner correctement le module <strong>Pulse Sensor</strong>. Ainsi, j'ai donc commencé à ajouter au programme la possibilité d'envoyer les résultats anciennement envoyés au <em>moniteur série</em> directement sur le téléphone, grâce à l'application <strong>Bluetooth Electronics</strong>, et la fonctionnalité <em>Text</em> de cette application.
+<br>
+J'ai donc 
+
+• 
+
+• 
