@@ -33,3 +33,5 @@ Une fois que le module sensor nous a donné le rythme cardiaque nous sommes reto
 
 
 <h2>- Séance du 7 janvier :</h2>
+
+Suite au mail de Pascal Masson, j'ai modifié le programme pour le compteur de kilomètre et de distance. J'ai ajouté une interruption qui permet de rendre le programme juste en comptant le nombre de tour sur une certaine durée, que l'o utilise ensuite pour le convertir en km/h. Ce <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/logo%20sensor%2Binterruption.ino">programme</a> est disponible dans le dossier Code.
