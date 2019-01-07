@@ -33,6 +33,7 @@
 • J'ai également récupéré le <strong>Pulse sensor</strong> :
 <br>
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor.png" alt="Image du Pulse sensor"/>
+<br>
 Après quelques recherches, je suis tombé sur <a href="https://letmeknow.fr/blog/2016/09/22/tuto-mise-en-place-du-capteur-pulse-sensor/">ce site</a>.
 Cependant, ce qui nous est founi ne semble pas être assez complet, puisqu'il ne renvoie pas ce que nous souhaitons pour notre projet. En effet, après avoir fait quelqus tests avec le code du précédent site internet, on note que quelque chose s'affiche sur le <em>moniteur série</em> uniquement lorsque l'on tapote sur le <strong>Pulse sensor</strong>. Un tel comportement signifie donc que nous sommes morts (?), ou tout du moins jusqu'à que nous tapotons sur ledit <strong>Pulse sensor</strong>.
 Ainsi, j'ai donc continué mes recherches, et je suis finalement tombé sur <a href="https://www.generationrobots.com/media/DetecteurDePoulsAmplifie/PulseSensorAmpedGettingStartedGuide.pdf">ce site</a>. Mon camarade <strong>Damien</strong> a alors essayé de faire fonctionner le programme en le modifiant (cf : <a href="https://github.com/PolyTool/PolyTool/blob/master/Rapports%20des%20seances/LENORMAND%20Damien.md#--s%C3%A9ance-du-17-d%C3%A9cembre-">son compte-rendu<a>).
@@ -52,10 +53,11 @@ J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'app
 
 <h2>• Rapport de la séance du Lundi 7 Janvier 2019 :</h2>
 
-• À la fin de la <a href="https://github.com/PolyTool/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-du-lundi-17-d%C3%A9cembre-2018-">séance du Lundi 17 Décembre 2018</a>, j'ai réussi à faire fonctionner correctement le module <strong>Pulse sensor</strong>. Ainsi, j'ai donc commencé à ajouter au programme la possibilité d'envoyer les résultats anciennement envoyés au <em>moniteur série</em> directement sur le téléphone, grâce à l'application <strong>Bluetooth Electronics</strong>, et la fonctionnalité <em>Text</em> de cette application.
+• À la fin de la <a href="https://github.com/PolyTool/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-du-lundi-17-d%C3%A9cembre-2018-">séance du lundi 17 décembre 2018</a>, j'ai réussi à faire fonctionner correctement le module <strong>Pulse sensor</strong>. Ainsi, j'ai donc commencé à ajouter au programme la possibilité d'envoyer les résultats anciennement envoyés au <em>moniteur série</em> directement sur le téléphone, grâce à l'application <strong>Bluetooth Electronics</strong>, et la fonctionnalité <em>Text</em> de cette application.
 <br>
 J'ai donc fait <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Pulse%20sensor%20(Bluetooth).ino">ce programme</a>. Il marche correctement, et voici le montage :
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor%20avec%20Bluetooth%20-%20Montage.png" alt="Montage du Pulse sensor avec le module Bluetooth"/>
+<br>
 Cependant, lors des tests, je me suis rendu compte qu'il persisté toujours un problème avec le <strong>Pulse sensor</strong> : les mesures restent assez aléatoires dans le sens où le <strong>Pulse sensor</strong> ne détecte pas toujours un battement, même après avoir baissé le seuil de tolérance (cf : les <em>lignes 6 et 7</em> de ce <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Pulse%20sensor.ino">programme</a>).
 
 • Par la suite, je me suis encore posé sur le problème du <strong>Pulse sensor</strong>. Même en ayant baissé le seuil de tolérance, il ne semble pas comprendre qu'il y a un battement. En le positionnant au niveau du cou, on a un résultat satisfaisant mais cela ne répond pas à la problématique de notre projet, puisque nous voulons un outil accessible. Il faudrait que nous puissions le mettre sur le poignet, à défaut détecter quoi que ce soit sur l'index gauche ou droit. Je réfléchis encore à une relation durable pour résoudre le problème.
