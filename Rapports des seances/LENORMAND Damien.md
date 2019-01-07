@@ -36,4 +36,6 @@ Une fois que le module sensor nous a donné le rythme cardiaque nous sommes reto
 
 Suite au mail de Pascal Masson, j'ai modifié le programme pour le compteur de kilomètre et de distance. J'ai ajouté une interruption qui permet de rendre le programme juste en comptant le nombre de tour sur une certaine durée, que l'o utilise ensuite pour le convertir en km/h. Ce <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/logo%20sensor%2Binterruption.ino">programme</a> est disponible dans le dossier Code.
 
-Je suis ensuite aller chercher le module logo sensor. Après avoir effectuer les branchements, j'ai tester le programme et une erreur intervient lors du calcul de la vitesse. Un autre problème est aussi présent, le capteur detecte plusieurs tour lorsque l'aimant passe dessus. Le calcul de la distance fonctionne et la vitesse moyenne aussi mais étant donné que la vitesse instantannée n'est pas la bonne, la valeur afficher est fausse.
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Capteur%20%C3%A0%20effet%20Hall%20-%20Montage.png"/>
+
+Je suis ensuite allé chercher le module logo sensor. Après avoir effectuer les branchements, j'ai testé le programme et une erreur intervient lors du calcul de la vitesse. Un autre problème est aussi présent, le capteur detecte plusieurs tour lorsque l'aimant passe dessus. Le calcul de la distance fonctionne et la vitesse moyenne aussi mais étant donné que la vitesse instantannée n'est pas la bonne, la valeur affichée est fausse.
