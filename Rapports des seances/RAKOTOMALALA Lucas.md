@@ -57,5 +57,3 @@ J'ai donc fait <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%2
 • Par la suite, je me suis encore posé sur le problème du <strong>Pulse sensor</strong>. Même en ayant baissé le seuil de tolérance, il ne semble pas comprendre qu'il y a un battement. En le positionnant au niveau du cou, on a un résultat satisfaisant mais cela né repond pas à la problématique de notre projet, puisque nous voulons un outil accessible. Il faudrait que nous puissions le mettre sur le poignet, à défaut détecter quoi que ce soit sur l'index gauche ou droit. Je réfléchis encore à une relation durable pour résoudre le problème.
 
 • J'ai par ailleurs aider à faire fonctionner le <strong>capteur à effet Hall</strong> avec Damien.
-
-• 
