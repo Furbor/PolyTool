@@ -3,7 +3,7 @@
 
 //  Variables
 const int sensor = 0;              
-int Threshold = 550; //Seuil       
+int Threshold = 550; //Seuil pour déterminer à partir de combien on compte qu'il s'agit d'un battement       
                                
 PulseSensorPlayground pulseSensor;  
 
