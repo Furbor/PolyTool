@@ -3,33 +3,25 @@
 
 //  Variables
 const int sensor = 0;              
-int Threshold = 550;           
+int Threshold = 550; //Seuil       
                                
 PulseSensorPlayground pulseSensor;  
 
 void setup() {   
 
   Serial.begin(9600);          
-
-  
   pulseSensor.analogInput(sensor);         
   pulseSensor.setThreshold(Threshold);   
-   if (pulseSensor.begin()) {
+  if (pulseSensor.begin()) {
     Serial.println("We created a pulseSensor Object !");
   }
 }
 
-
-
 void loop() {
-
- int BPM = pulseSensor.getBeatsPerMinute();  
-
-if (pulseSensor.sawStartOfBeat()) {            
- Serial.print("BPM: ");                        
- Serial.println(BPM);                        
-}
-
+  int BPM = pulseSensor.getBeatsPerMinute();  
+  if (pulseSensor.sawStartOfBeat()) {            
+    Serial.print("BPM: ");                        
+    Serial.println(BPM);                        
+  }
   delay(20);                    
-
 }
