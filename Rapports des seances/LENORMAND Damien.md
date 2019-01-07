@@ -30,3 +30,6 @@ J'ai aussi commencé à chercher la formule pour convertir le nombre de tour par
 
 
 Une fois que le module sensor nous a donné le rythme cardiaque nous sommes retourné sur le module logo sensor qui, même apres avoir resouder ce module, ne detectait toujours pas de changement lorsqu'un aimant passe devant.
+
+
+<h2>- Séance du 7 janvier :</h2>
