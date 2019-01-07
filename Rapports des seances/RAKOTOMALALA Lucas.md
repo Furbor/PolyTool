@@ -18,7 +18,7 @@
 
 • J'ai alors testé le module <strong>LOGO-sensor Ver1.3</strong>, dont le code est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20Ver1.3.ino">ici</a>, mais un problème persiste. Il ne semble pas faire le distintion entre la présence d'aimant ou non.
 <br>
-<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/LOGO-sensor%20Ver1.3.png" alt="Image du LOGO-sensor Ver1.3">
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/LOGO-sensor%20Ver1.3.png" alt="Image du LOGO-sensor Ver1.3"/>
 
 • Nous avons cherché des projets qui faisait individuellement ce que nous voulons faire et on est tombé sur plusieurs sites et vidéos YouTube (comme <a href="https://www.youtube.com/watch?v=bn3KiEK4wJ0">celle-ci</a>, qui va vraisemblablement bien nous aider pour le <em>thermomètre de l'air ambiant</em> en Arduino).
 
@@ -32,7 +32,7 @@
 
 • J'ai également récupéré le <strong>Pulse sensor</strong> :
 <br>
-<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor.png" alt="Image du Pulse sensor">
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor.png" alt="Image du Pulse sensor"/>
 Après quelques recherches, je suis tombé sur <a href="https://letmeknow.fr/blog/2016/09/22/tuto-mise-en-place-du-capteur-pulse-sensor/">ce site</a>.
 <br>
 Cependant, ce qui nous est founi ne semble pas être assez complet, puisqu'il ne renvoie pas ce que nous souhaitons pour notre projet. En effet, après avoir fait quelqus tests avec le code du précédent site internet, on note que quelque chose s'affiche sur le <em>moniteur série</em> uniquement lorsque l'on tapote sur le <strong>Pulse sensor</strong>. Un tel comportement signifie donc que nous sommes morts (?), ou tout du moins jusqu'à que nous tapotons sur ledit <strong>Pulse sensor</strong>.
@@ -46,7 +46,7 @@ J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'app
 
 <h2>• Pendant les vacances de Noël :</h2>
 • J'ai apporté quelques informations supplémentaires suite au mail de <strong>Pascal Masson</strong>.
-
+<br>
 • J'ai mis en ligne le <strong>Diagramme de Gantt</strong> du projet. Il est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Diagramme%20de%20Gantt.png">ici</a> (ou <a href="https://raw.githubusercontent.com/PolyTool/PolyTool/master/Ressources/Diagramme%20de%20Gantt.png">ici</a> pour le voir en plus grand), ainsi que dans le rubrique <strong>Délais de réalisation</strong> du <a href="https://github.com/PolyTool/PolyTool/blob/master/Cahier%20des%20charges.md">Cahier des charges</a>.
 
 <hr>
@@ -55,9 +55,9 @@ J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'app
 • À la fin de la <a href="https://github.com/PolyTool/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-du-lundi-17-d%C3%A9cembre-2018-">séance du Lundi 17 Décembre 2018</a>, j'ai réussi à faire fonctionner correctement le module <strong>Pulse sensor</strong>. Ainsi, j'ai donc commencé à ajouter au programme la possibilité d'envoyer les résultats anciennement envoyés au <em>moniteur série</em> directement sur le téléphone, grâce à l'application <strong>Bluetooth Electronics</strong>, et la fonctionnalité <em>Text</em> de cette application.
 <br>
 J'ai donc fait <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Pulse%20sensor%20(Bluetooth).ino">ce programme</a>. Il marche correctement, et voici le montage :
-<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor%20avec%20Bluetooth%20-%20Montage.png" alt="Montage du Pulse sensor avec le module Bluetooth">
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor%20avec%20Bluetooth%20-%20Montage.png" alt="Montage du Pulse sensor avec le module Bluetooth"/>
 Cependant, lors des tests, je me suis rendu compte qu'il persisté toujours un problème avec le <strong>Pulse sensor</strong> : les mesures restent assez aléatoires dans le sens où le <strong>Pulse sensor</strong> ne détecte pas toujours un battement, même après avoir baissé le seuil de tolérance (cf : les <em>lignes 6 et 7</em> de ce <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Pulse%20sensor.ino">programme</a>).
 <br>
 • Par la suite, je me suis encore posé sur le problème du <strong>Pulse sensor</strong>. Même en ayant baissé le seuil de tolérance, il ne semble pas comprendre qu'il y a un battement. En le positionnant au niveau du cou, on a un résultat satisfaisant mais cela ne répond pas à la problématique de notre projet, puisque nous voulons un outil accessible. Il faudrait que nous puissions le mettre sur le poignet, à défaut détecter quoi que ce soit sur l'index gauche ou droit. Je réfléchis encore à une relation durable pour résoudre le problème.
-
+<br>
 • J'ai par ailleurs aider à faire fonctionner le <strong>capteur à effet Hall</strong> avec Damien.
