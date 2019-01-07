@@ -50,9 +50,9 @@ Cependant, ce qui nous est founi ne semble pas être assez complet, puisqu'il ne
 <hr>
 
 <h2>• Rapport de la séance du Lundi 7 Janvier 2019 :</h2>
-• À la fin de la séance du Lundi 17 Décembre 2018, j'ai réussi à faire fonctionner correctement le module <strong>Pulse Sensor</strong>. Ainsi, j'ai donc commencé à ajouter au programme la possibilité d'envoyer les résultats anciennement envoyés au <em>moniteur série</em> directement sur le téléphone, grâce à l'application <strong>Bluetooth Electronics</strong>, et la fonctionnalité <em>Text</em> de cette application.
+• À la fin de la <a href="https://github.com/PolyTool/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-du-lundi-17-d%C3%A9cembre-2018-">séance du Lundi 17 Décembre 2018</a>, j'ai réussi à faire fonctionner correctement le module <strong>Pulse Sensor</strong>. Ainsi, j'ai donc commencé à ajouter au programme la possibilité d'envoyer les résultats anciennement envoyés au <em>moniteur série</em> directement sur le téléphone, grâce à l'application <strong>Bluetooth Electronics</strong>, et la fonctionnalité <em>Text</em> de cette application.
 <br>
-J'ai donc 
+  J'ai donc 
 
 • 
 
