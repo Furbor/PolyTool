@@ -29,9 +29,9 @@ void loop() {
   if (luminosite>350) {
     Serial.println(c2);
     BlueT.print(prefixe_texte + c2); // Ecriture sur l'appareil connecté en Bluetooth
-    if (millis() - vieuxTemps > 10000) { // Lorsqu'on est trop longtemps dans la condition précédente (au delà  de 10s), on alerte l'utilisateur par le biais d'un buzzer
+    if (millis() - vieuxTemps > 15000) { // Lorsqu'on est trop longtemps dans la condition précédente (au delà  de 15s), on alerte l'utilisateur par le biais d'un buzzer
       BlueT.print("*S");
-    }    
+    }
   }
   delay(200);
 }
