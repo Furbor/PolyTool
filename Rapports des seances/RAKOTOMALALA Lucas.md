@@ -63,3 +63,16 @@ Cependant, lors des tests, je me suis rendu compte qu'il persisté toujours un p
 • Par la suite, je me suis encore posé sur le problème du <strong>Pulse sensor</strong>. Même en ayant baissé le seuil de tolérance, il ne semble pas comprendre qu'il y a un battement. En le positionnant au niveau du cou, on a un résultat satisfaisant mais cela ne répond pas à la problématique de notre projet, puisque nous voulons un outil accessible. Il faudrait que nous puissions le mettre sur le poignet, à défaut détecter quoi que ce soit sur l'index gauche ou droit. Je réfléchis encore à une relation durable pour résoudre le problème.
 
 • J'ai par ailleurs aider à faire fonctionner le <strong>capteur à effet Hall</strong> avec Damien.
+
+<hr>
+
+<h2>• Rapport de la séance du Lundi 14 Janvier 2019 :</h2>
+
+• J'ai récupéré 3 modules aujourd'hui : la <strong>photorésistance</strong>, le <strong>capteur de température ambiante</strong> ainsi que le <strong>capteur de température corporelle</strong>.
+
+• J'ai commencé à écrire un programme pour la <strong>photorésistance</strong>, et j'ai obtenu <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Photoresistance.ino">ceci</a>. Le programme fonctionne et fait ce que je veux, c'est-à-dire envoyer un message en fonction de la luminosité ambiante. Pour ce programme, vous trouverez le montage associé <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Photoresistance%20-%20Montage.png">ici</a>.
+
+• J'ai ensuite ajouté le module <em>Bluetooth</em> au montage de la <strong>photorésistance</strong>, que vous retrouverez <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Photoresistance%20avec%20Bluetooth%20-%20Montage.png">ici</a>. J'ai adapté le programme suivant pour y ajouter ce nouveau module. Voici ce que j'ai écrit : <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Photoresistance%20(Bluetooth).ino">Photoresistance (Bluetooth).ino</a>.
+J'ai par ailleurs ajouter une fonction de <em>buzzer</em> (de son) pour avertir l'utilisateur lorsque la condition 2 du programme est vérifiée (second <em>if</em>), afin que ce dernier n'ait pas besoin de regarder son smartphone durant son trajet.
+
+• J'ai mis en relation les différents programmes compatibles avec le <em>Bluetooth</em> pour l'oral d'aujourd'hui. Il est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Test%20du%2014%20Janvier.ino">ici</a>. Ce programme utilise 2 modules : le <strong>Pulse sensor</strong> et la <strong>photorésistance</strong>.
