@@ -9,7 +9,7 @@ volatile long vitesse;
 float v;
 float vm; // Vitesse moyenne
 float pi=3.14159;
-long temps=0;
+unsigned long temps;
 long delai=1000;
 int c; // Compteur
 
@@ -18,35 +18,34 @@ void setup() {
   pinMode(sensor, INPUT);
   Serial.begin(9600); 
   attachInterrupt(0,compteur,RISING);
-  //temps=millis();
+  
 }
 
 void loop() {
-  aimant=analogRead(sensor);
+  aimant=digitalRead(sensor);
+  //Serial.println(aimant);
+  temps=millis();
   if (millis()>(temps+delai)) {
+    Serial.println(tour);
+    Serial.println(aimant);
     temps=temps+delai;
     c=c+1;
-    vitesse=((tour*2*pi)*0,032)*3,6;
-    v=v+vitesse;
-    vm=v/c;
+    vitesse=(((tour*2)*pi)*0,032)*3,6;
     distance=(2*pi)*rayon*tour;
-    Serial.print("Vitesse instantanée : ");
-    Serial.print(vitesse);
-    Serial.println("km/h");
-    //Serial.print("Vitesse moyenne : ");
-    //Serial.print(vm);
+    //Serial.print("Vitesse instantanée : ");
+    //Serial.print(vitesse);
     //Serial.println("km/h");
-    //Serial.print("Distance parcourue : ");
-    //Serial.print(distance);
-    //Serial.println("km");
+    
+    Serial.print("Distance parcourue : ");
+    Serial.print(distance);
+    Serial.println("km");
+    tour=0;
   }
-  delay(500);
-  tour=0;
+  
 }
 
 void compteur(){
   tour=tour+1;
   Serial.print("Tour n°");
-  Serial.println(tour);
-  
+  Serial.println(tour);  
 }
