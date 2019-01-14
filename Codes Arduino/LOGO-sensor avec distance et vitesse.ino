@@ -1,6 +1,6 @@
 //Code pour le module utilisant l'effet Hall
 
-int sensor = 7;  // le input du sensor est branché su le pin 7
+int sensor = 7;  // Input du sensor est branché su le pin 7
 int aimant = HIGH;  // HIGH signifie qu'il n'y a pas d'aimant
 int tour=0;
 const float rayon = 0.0004;
