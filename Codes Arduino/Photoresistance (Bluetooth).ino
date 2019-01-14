@@ -11,7 +11,8 @@ String prefixe_son = "*S";
 String prefixe_texte = "*L";
 long int vieuxTemps = millis();
 
-String c1 = "Endroit peu éclairé : pensez à allumer une lampe si cela continue";
+String c0 = "Endroit eclaire";
+String c1 = "Endroit peu eclaire : pensez à allumer une lampe si cela continue";
 String c2 = "Endroit sombre : veuillez allumer une lampe pour votre sécurité";
 
 void setup() {
@@ -22,8 +23,12 @@ void setup() {
 void loop() {
   int luminosite = analogRead(capteur);
   Serial.println(luminosite);
+  if (luminosite<120) {
+    Serial.println(c0);
+    BlueT.print(prefixe_texte + c0); // Ecriture sur l'appareil connecté en Bluetooth 
+  }
   if (luminosite>120 && luminosite<=350) {
-    Serial.println(c2);
+    Serial.println(c1);
     BlueT.print(prefixe_texte + c1); // Ecriture sur l'appareil connecté en Bluetooth
   }
   if (luminosite>350) {
