@@ -2,9 +2,9 @@ Ici, j'écrirais tous mes rapports de séances.
 
 <h2>- Séance du 10 décembre :</h2>
 
-Tout d'abord, nous avons créé notre Github pour notre projet.
+- Tout d'abord, nous avons créé notre Github pour notre projet.
 
-Ensuite je me suis renseigné sur les differents modules dont nous auront besoin, tel que celui pour la température exterieure ainsi que la corporelle, le capteur de lumière et le capteur pour le rythme cardiaque.
+- Ensuite je me suis renseigné sur les differents modules dont nous auront besoin, tel que celui pour la température extérieure ainsi que la corporelle, le capteur de lumière et le capteur pour le rythme cardiaque.
 
 - Pour la température exterieur nous allons utiliser un capteur LM35. Ce capteur nous permet de mesurer des températures pouvant aller de -40° à 85° qui est disponible <a href="https://www.conrad.fr/p/texas-instruments-lm-335-z-capteur-de-temperature-40-a-100-c-to-92-sortie-radiale-176656">ici</a>.
 
@@ -14,9 +14,9 @@ Ensuite je me suis renseigné sur les differents modules dont nous auront besoin
 
 - Pour le rythme cardiaque, un capteur pulse sensor sera utilisé.
 
-Je me suis ensuite renseigner sur l'effet hall qui va permettre de mettre en place notre compteur de kilomètre ainsi que celui de vitesse. Cette effet est très bien expliquer <a href="http://etronics.free.fr/dossiers/analog/analog48/capthall.htm"> ici</a>.
+- Je me suis ensuite renseigner sur l'effet hall qui va permettre de mettre en place notre compteur de kilomètre ainsi que celui de vitesse. Cette effet est très bien expliquer <a href="http://etronics.free.fr/dossiers/analog/analog48/capthall.htm">ici</a>.
 
-Une fois la recherche des éléments terminée, nous avons essayé le module Sensor, pour le compteur de vitesse et kilomètre, afin de regarder ce que le module nous renvoie.
+- Une fois la recherche des éléments terminée, nous avons essayé le module Sensor, pour le compteur de vitesse et kilomètre, afin de regarder ce que le module nous renvoie.
 J'ai aussi commencé à chercher la formule pour convertir le nombre de tour par minute en km/h.
 
 <h2>- Séance du 17 décembre :</h2>
@@ -29,7 +29,7 @@ J'ai aussi commencé à chercher la formule pour convertir le nombre de tour par
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Pulse%20sensor%20-%20Montage.png"/>
 
 
-Une fois que le module sensor nous a donné le rythme cardiaque nous sommes retourné sur le module logo sensor qui, même apres avoir resouder ce module, ne detectait toujours pas de changement lorsqu'un aimant passe devant.
+- Une fois que le module sensor nous a donné le rythme cardiaque nous sommes retourné sur le module LOGO-sensor qui, même apres avoir resouder ce module, ne détectait toujours pas de changement lorsqu'un aimant passe devant.
 
 
 <h2>- Séance du 7 janvier :</h2>
