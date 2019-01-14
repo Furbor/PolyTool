@@ -30,13 +30,13 @@ void loop() {
     v=v+vitesse;
     vm=v/c;
     distance=(2*pi)*rayon*tour;
-    //Serial.print("vitesse instantanée=");
+    //Serial.print("Vitesse instantanée: ");
     Serial.print(vitesse);
     //Serial.println("km/h");
-    //Serial.print("vitesse moyenne");
+    //Serial.print("Vitesse moyenne: ");
     //Serial.print(vm);
     //Serial.println("km/h");
-    //Serial.print("Distance=");
+    //Serial.print("Distance parcourue: ");
     //Serial.print(distance);
     //Serial.println("km");
   }
