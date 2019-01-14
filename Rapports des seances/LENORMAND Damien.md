@@ -46,3 +46,7 @@ Je suis ensuite allé chercher le module logo sensor. Après avoir effectuer les
 La premiere chose que j'ai faite est d'écrire de nouveau le programme pour la vitesse, distance et vitesse moyenne. L'interruption du programme se fait au bon moment, grâce a l'utilisation du RISING. Mais lors de cette interruption ou seulement un seul tour doit être ajouter, des milliers de tour sont ajoutés sans raison. Lorsque que l'on passe l'aimant devant le capteur, et que le nombre de tour est afficher sur le moniteur série, des valeurs tel que 3500 apparaissent. 
 
 Le capteur détecte 3 états: 1 état LOW ou rien ne se passe et aucun tour est ajouter. Un état HIGH ou aucun tour n'est ajouter aussi. Et un état "entre 2" ou lorsque l'on reste sur cet état là, le nombre de tour ne fait qu'augmenter. C'est comme si un état RISING était détecté. Lors de cet état, le compteur augmente a l'infini. Le code est <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20avec%20interrruption.ino">ici</a>.
+
+A la suite de l'oral de 5min, j'ai commencé a me renseigner sur le module DHT11, celui qui va être u'ilisé pour la température exterieur ainsi que l'humidité.
+
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/DHT11.png"/>
