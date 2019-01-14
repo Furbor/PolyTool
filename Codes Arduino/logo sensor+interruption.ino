@@ -1,6 +1,6 @@
 //Code pour le module utilisant l'effet Hall
 
-int sensor = A0;  // Input du sensor est branché sur le pin 2
+int sensor = 2;  // Input du sensor est branché sur le pin 2
 int aimant = HIGH;  // HIGH signifie qu'il n'y a pas d'aimant
 volatile int tour;
 const float rayon = 0.0004; // Rayon de la roue (choisi arbitrairement)
