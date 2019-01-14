@@ -3,11 +3,11 @@
 int sensor = 7;  // Input du sensor est branché su le pin 7
 int aimant = HIGH;  // HIGH signifie qu'il n'y a pas d'aimant
 int tour=0;
-const float rayon = 0.0004;
+const float rayon = 0.0004; // Rayon de la roue (choisi arbitrairement)
 float distance=0;
 float vitesse=0;
 float v=0;
-float vm=0;
+float vm=0; // Vitesse moyenne
 const float pi=3.14159;
 
 
@@ -35,13 +35,13 @@ void loop() {
   }
   //distance=distance+(2*pi)*rayon;
   //vitesse=(((tour/60)*2*pi)*0,032)*3,6;
-  Serial.print("vitesse instantanée=");
+  Serial.print("Vitesse instantanée : ");
   Serial.print(vitesse);
   Serial.println("km/h");
-  Serial.print("vitesse moyenne");
+  Serial.print("Vitesse moyenne : ");
   Serial.print(vm);
   Serial.println("km/h");
-  Serial.print("Distance=");
+  Serial.print("Distance parcourue : ");
   Serial.print(distance);
   Serial.println("km");
   delay(500);
