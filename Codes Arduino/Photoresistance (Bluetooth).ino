@@ -6,14 +6,14 @@
 SoftwareSerial BlueT(RX,TX);
 
 // Variables
-int capteur = A0;
+const int capteur_photo = A0;
 String prefixe_son = "*S";
 String prefixe_texte = "*L";
 long int vieuxTemps = millis();
 
 String c0 = "Endroit eclaire";
-String c1 = "Endroit peu eclaire : pensez à allumer une lampe si cela continue";
-String c2 = "Endroit sombre : veuillez allumer une lampe pour votre sécurité";
+String c1 = "Endroit peu eclaire : pensez a allumer une lampe si cela continue";
+String c2 = "Endroit sombre : veuillez allumer une lampe pour votre securite";
 
 void setup() {
   Serial.begin(9600);
@@ -21,7 +21,7 @@ void setup() {
 }
 
 void loop() {
-  int luminosite = analogRead(capteur);
+  int luminosite = analogRead(capteur_photo);
   Serial.println(luminosite);
   if (luminosite<120) {
     Serial.println(c0);
