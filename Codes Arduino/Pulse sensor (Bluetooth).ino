@@ -1,3 +1,5 @@
+// Code Arduino pour le fonctionnement du Pulse sensor avec l'ajout du Bluetooth
+
 #define USE_ARDUINO_INTERRUPTS true    
 #include <PulseSensorPlayground.h>
 #include <SoftwareSerial.h>     
