@@ -9,9 +9,9 @@
 SoftwareSerial BlueT(RX,TX);
 
 //  Variables
-const int sensor = A0;              
+const int pulse_sensor = A0;              
 int Threshold = 225; //Seuil pour déterminer à partir de combien on compte qu'il s'agit d'un battement
-String prefixe = "*B";       
+String prefixe_bpm = "*B";       
                                
 PulseSensorPlayground pulseSensor;  
 
@@ -19,19 +19,18 @@ void setup() {
 
   Serial.begin(9600);
   BlueT.begin(9600);          
-  pulseSensor.analogInput(sensor);         
+  pulseSensor.analogInput(pulse_sensor);         
   pulseSensor.setThreshold(Threshold);   
   if (pulseSensor.begin()) {
-    BlueT.print(prefixe + "'Pulse sensor' prêt à l'emploi !");
+    BlueT.print(prefixe_bpm + "'Pulse sensor' prêt à l'emploi !");
   }
   delay(100);
-  BlueT.print(prefixe + "BPM : ");
 }
 
 void loop() {
   int BPM = pulseSensor.getBeatsPerMinute();  
   if (pulseSensor.sawStartOfBeat()) {                                    
-    BlueT.print(prefixe + "BPM : " + String(BPM));                        
+    BlueT.print(prefixe_bpm + "BPM : " + String(BPM));                        
   }
   delay(50);                    
 }
