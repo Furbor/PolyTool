@@ -1,6 +1,6 @@
 //Code pour le module utilisant l'effet Hall
 
-int sensor = 2;  // Input du sensor est branché sur le pin 2
+int sensor = A0;  // Input du sensor est branché sur le pin 2
 int aimant = HIGH;  // HIGH signifie qu'il n'y a pas d'aimant
 volatile int tour;
 const float rayon = 0.0004; // Rayon de la roue (choisi arbitrairement)
@@ -30,9 +30,9 @@ void loop() {
     v=v+vitesse;
     vm=v/c;
     distance=(2*pi)*rayon*tour;
-    //Serial.print("Vitesse instantanée: ");
+    Serial.print("Vitesse instantanée: ");
     Serial.print(vitesse);
-    //Serial.println("km/h");
+    Serial.println("km/h");
     //Serial.print("Vitesse moyenne: ");
     //Serial.print(vm);
     //Serial.println("km/h");
@@ -46,6 +46,7 @@ void loop() {
 
 void compteur(){
   tour=tour+1;
+  Serial.print("Tour n°");
   Serial.println(tour);
   
 }
