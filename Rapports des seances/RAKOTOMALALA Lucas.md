@@ -80,3 +80,9 @@ J'ai par ailleurs ajouter une fonction de <em>buzzer</em> (de son) pour avertir 
 <hr>
 
 <h2>• Rapport de la séance 5 du Lundi 4 Février 2019 :</h2>
+
+• J'ai cherché des informations concernant le <strong>capteur de température PIR</strong>, cependant rien de concluant n'a pu être trouvé. En effet, celui que nous possédons avec Damien possède <em>4 pins</em> et ne ressemble en rien à ceux trouvés sur Internet. Donc au risque de griller ce petit module contenant un picot, je n'ai rien touché, et j'attends de recevoir le nouveau module commandé.
+
+• Un problème persiste quant au <em>capteur a effet Hall</em>. Le nombre de tour continue de défiler alors que je passe une unique fois l'aimant devant. Cependant, en ajoutant un délai dans le compteur, on arrive à réduire le nombre de tour à chaque fois que l'on entre dans le compteur : le module compte dorénavant 2 tours à chaque changement d'état, malgré le réglage de l'interruption à <em>RISING</em>, c'est-à-dire uniquement lorsque l'état passe de <strong>LOW</strong> à <strong>HIGH</strong>.
+
+• J'ai réussi à faire en sorte que les tours ne s'incrémentent que de 1 à chauqe passage de l'aimant, en modifiant légèrement le code. J'ai également corriger la distance pour qu'elle s'incrémente correctement. Il ne reste plus qu'à trouver un moyen de calculer la <em>vitesse instantanée</em>. Le montage du module reste le même qu'aux séances précédentes. Le programme a été mis à jour et est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20avec%20interrruption%20(2.0).ino">ici</a>.
