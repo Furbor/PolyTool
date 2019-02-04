@@ -2,7 +2,7 @@
 
 <hr>
     
-<h2>• Rapport de la séance du Lundi 10 Décembre 2018 :</h2>
+<h2>• Rapport de la séance 1 du Lundi 10 Décembre 2018 :</h2>
 
 • Nous avons commencé par la création du GitHub pour le projet Arduino.
 
@@ -24,7 +24,7 @@
 
 <hr>
 
-<h2>• Rapport de la séance du Lundi 17 Décembre 2018 :</h2>
+<h2>• Rapport de la séance 2 du Lundi 17 Décembre 2018 :</h2>
 
 • Tout d'abord, j'ai commencé par remarquer qu'il manquait une soudure dans le <strong>LOGO-sensor Ver1.3</strong>. J'ai alors tenté de souder la patte qui ne l'était pas. Pour autant, le programme, que j'ai modifié en ajoutant des commentaires ne semble toujours pas faire ce que l'ont veut, c'est-à-dire détecter la présence d'un aimant. Le montage de ce module est montré ci-dessous :
 <br>
@@ -51,7 +51,7 @@ J'ai également trouvé un <a href="https://pulsesensor.com/">site</a> qui s'app
 
 <hr>
 
-<h2>• Rapport de la séance du Lundi 7 Janvier 2019 :</h2>
+<h2>• Rapport de la séance 3 du Lundi 7 Janvier 2019 :</h2>
 
 • À la fin de la <a href="https://github.com/PolyTool/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-du-lundi-17-d%C3%A9cembre-2018-">séance du lundi 17 décembre 2018</a>, j'ai réussi à faire fonctionner correctement le module <strong>Pulse sensor</strong>. Ainsi, j'ai donc commencé à ajouter au programme la possibilité d'envoyer les résultats anciennement envoyés au <em>moniteur série</em> directement sur le téléphone, grâce à l'application <strong>Bluetooth Electronics</strong>, et la fonctionnalité <em>Text</em> de cette application.
 <br>
@@ -66,7 +66,7 @@ Cependant, lors des tests, je me suis rendu compte qu'il persisté toujours un p
 
 <hr>
 
-<h2>• Rapport de la séance du Lundi 14 Janvier 2019 :</h2>
+<h2>• Rapport de la séance 4 du Lundi 14 Janvier 2019 :</h2>
 
 • J'ai récupéré 3 modules aujourd'hui : la <strong>photorésistance</strong>, le <strong>capteur de température ambiante</strong> ainsi que le <strong>capteur de température corporelle</strong>.
 
@@ -76,3 +76,7 @@ Cependant, lors des tests, je me suis rendu compte qu'il persisté toujours un p
 J'ai par ailleurs ajouter une fonction de <em>buzzer</em> (de son) pour avertir l'utilisateur lorsque la condition 2 du programme est vérifiée (second <em>if</em>), afin que ce dernier n'ait pas besoin de regarder son smartphone durant son trajet.
 
 • J'ai mis en relation les différents programmes compatibles avec le <em>Bluetooth</em> pour l'oral d'aujourd'hui. Il est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Test%20du%2014%20Janvier.ino">ici</a>. Ce programme utilise 2 modules : le <strong>Pulse sensor</strong> et la <strong>photorésistance</strong>.
+
+<hr>
+
+<h2>• Rapport de la séance 5 du Lundi 4 Février 2019 :</h2>
