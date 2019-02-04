@@ -50,3 +50,9 @@ J'ai aussi commencé à chercher la formule pour convertir le nombre de tour par
 - À la suite de l'oral de 5min, j'ai commencé à me renseigner sur le module DHT11, celui qui va être utilisé pour la température extérieure ainsi que l'humidité.
 
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/DHT11.png"/>
+
+
+<h2>- Séance du 4 fevrier :</h2>
+
+-J'ai commencé par effectuer le montage pour le module DHT11, module utilisé pour la température exterieur ainsi que l'humidité. Ce montage est fait a l'aide d'un condensateur. Une fois le montage effectuer, j'ai écrit le programme a l'aide d'un modèle trouver sur internet. le programme est <a href ="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/DHT11.ino">ici</a>.
+Le module fonctionne correctement et nous affiche les valeurs de l'humidité et de la température.
