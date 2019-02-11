@@ -1,4 +1,4 @@
-//Second code pour le module utilisant l'effet Hall (Séance du Lundi 11 Février 2019)
+//Troisième code pour le module utilisant l'effet Hall (Séance du Lundi 11 Février 2019)
 
 int sensor = A0;  // Input du sensor est branché sur le pin 2
 int aimant = HIGH;  // HIGH signifie qu'il n'y a pas d'aimant
