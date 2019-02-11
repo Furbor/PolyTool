@@ -93,7 +93,7 @@ J'ai par ailleurs ajouter une fonction de <em>buzzer</em> (de son) pour avertir 
 
 • Je vais, pendant la séance, chercher des modèles 3D (quitte à les modifier), pour accueillir notre projet. J'ai trouvé un modèle 3D intéressant <a href="https://cults3d.com/fr/mod%C3%A8le-3d/outil/arduino-box-boite-arduino">ici</a>, mais il ne semble pas être adapté à notre carte Arduino et ce qui est branché. Je vais donc faire le pièce chez moi pour éviter d'empiéter du temps dans la séance.
 
-• J'ai récupéré le moudle <strong>LM335Z</strong>, qui va nous permettre de capter la température corporelle du l'utilisateur. J'ai modifié un programme trouvé sur Internet pour notre module. Je suis arrivé au programme suivant : <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LM335Z.ino">LM335Z.ino</a>. Le montage est le suivant : <img src="" alt="Montage du module LM335Z"/>
+• J'ai récupéré le moudle <strong>LM335Z</strong>, qui va nous permettre de capter la température corporelle du l'utilisateur. J'ai modifié un programme trouvé sur Internet pour notre module. Je suis arrivé au programme suivant : <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LM335Z.ino">LM335Z.ino</a>. Le montage est le suivant : <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Module%20LM335Z%20-%20Montage.png" alt="Montage du module LM335Z"/>
 Cependant, le programme n'affiche pas les valeurs attendues. Ceci est dû à une résistance trop petite. En effet, j'utilise une résistance de 330 Ohms, alors que la résistance conseillée est de 2000 Ohms. L'intensité du courant est donc trop grande, ce qui a pour effet d'avoir une tension constante à 5V, empêchant alors des mesures correctes.
 
 
