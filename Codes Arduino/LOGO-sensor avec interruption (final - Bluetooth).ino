@@ -1,4 +1,4 @@
-//Second code pour le module utilisant l'effet Hall (Séance du Lundi 11 Février 2019)
+//Dernier code pour le module utilisant l'effet Hall avec l'intégraton du Bluetooth (Séance du Lundi 11 Février 2019)
 
 //definition du module bluetooth
 #include <SoftwareSerial.h>
