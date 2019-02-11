@@ -60,3 +60,7 @@ Le module fonctionne correctement et nous affiche les valeurs de l'humidité et 
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Moniteur%20s%C3%A9rie%20des%20r%C3%A9sultats%20-%20DHT11.png"/>
 
 - Je me suis ensuite renseigné sur le capteur pir qui nous a été fourni avec un capteur DT8260.
+
+<h2>- Séance du 11 fevrier :</h2>
+
+- Dans un premier temps, je suis retourné sur le programme pour le logo-sensor (vitesse, distance, ...). J'ai separé tous les différentes opérations du calcul pour la vitesse afin de voir d'ou vient l'erreur du 0. L'erreur venait du fait que le rayon de la roue était en kilomètre et non en mètre. La valeur de la vitesse instantanée est maintenant vrai. L'autre problème était que lorsque l'aimant passé devant le capteur, il comptait trop de tours. On a donc ajouter un délai dans l'interruption. Le <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20avec%20interrruption%20(3.0).ino">code</a> donne maintenant les valeurs de la vitesse instantannée ainsi que la distance parcourue.
