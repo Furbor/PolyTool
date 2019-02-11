@@ -86,3 +86,10 @@ J'ai par ailleurs ajouter une fonction de <em>buzzer</em> (de son) pour avertir 
 • Un problème persiste quant au <em>capteur à effet Hall</em>. Le nombre de tour continue de défiler alors que je passe une unique fois l'aimant devant. Cependant, en ajoutant un délai dans le compteur, on arrive à réduire le nombre de tour à chaque fois que l'on entre dans le compteur : le module compte dorénavant 2 tours à chaque changement d'état, malgré le réglage de l'interruption à <em>RISING</em>, c'est-à-dire uniquement lorsque l'état passe de <strong>LOW</strong> à <strong>HIGH</strong>.
 
 • J'ai réussi à faire en sorte que les tours ne s'incrémentent que de 1 à chauqe passage de l'aimant, en modifiant légèrement le code. J'ai également corriger la distance pour qu'elle s'incrémente correctement. Il ne reste plus qu'à trouver un moyen de calculer la <em>vitesse instantanée</em>. Le montage du module reste le même qu'aux séances précédentes. Le programme a été mis à jour et est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20avec%20interrruption%20(2.0).ino">ici</a>.
+
+<hr>
+
+<h2>• Rapport de la séance 6 du Lundi 11 Février 2019 :</h2>
+
+• Je vais, pendant la séance, chercher des modèles 3D (quitte à les modifier), pour accueillir notre projet. J'ai trouvé un modèle 3D intéressant <a href="https://cults3d.com/fr/mod%C3%A8le-3d/outil/arduino-box-boite-arduino">ici</a>, mais il ne semble pas être adapté à notre carte Arduino et ce qui est branché.
+
