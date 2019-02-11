@@ -7,11 +7,10 @@ const float rayon = 0.32; // Rayon de la roue (cherchée sur Google)
 float distance;
 volatile long vitesse;
 float v;
-float vm; // Vitesse moyenne
 float pi=3.14159;
 unsigned long temps;
 long delai=1000;
-int c; // Compteur
+int compteurV; // Compteur
 
 
 void setup() {
@@ -26,27 +25,27 @@ void loop() {
   //Serial.println(aimant);
   
   if (millis()>temps+delai) {
-    Serial.print("Tour du 'if' : ");
+    //Serial.print("Tour du 'if' : ");
+    tour=tour/2;
     Serial.println(tour);
     //Serial.println(aimant);
     temps=temps+delai;
-    c=c+1;
+    compteurV=compteurV+1;
     vitesse=(tour*60)*pi*rayon*2/60;
-    distance=distance+(2*pi)*rayon*tour;
+    distance=distance+(2*pi)*rayon/1000*tour;
     Serial.print("Vitesse instantanée : ");
     Serial.print(vitesse);
     Serial.println("km/h");
-    
-    //Serial.print("Distance parcourue : ");
-    //Serial.print(distance);
-    //Serial.println("km");
+    Serial.print("Distance parcourue : ");
+    Serial.print(distance);
+    Serial.println("km");
     tour=0;
   }
 }
 
 void compteur(){
-  delay(delai*20);
-  tour=tour+0.5;
-  Serial.print("Tour n°");
-  Serial.println(int(tour));  
+  delay(delai);
+  tour=tour+1;
+  //Serial.print("Tour n°");
+  //Serial.println(int(tour));  
 }
