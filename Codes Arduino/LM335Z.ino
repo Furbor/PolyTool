@@ -9,7 +9,7 @@ void setup() {
 void loop() { 
   int tensionAnalogique = analogRead(capteurPin); // Lecture de la tension 
   float tension = (tensionAnalogique * 5.0) / 1024.0; //Conversion en volt
-  float temperature = ((tensionAnalogique*5.0)/102.4)-273.15;
+  float temperature = ((tensionAnalogique*5.0)/10.24)-273.15;
 
   Serial.print(tension);
   Serial.println(" V");
