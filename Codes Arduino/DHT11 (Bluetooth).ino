@@ -1,3 +1,5 @@
+// Code pour le module de température DHT11, avec l'ajout du Bluetooth
+
 #include <SoftwareSerial.h>
 const byte BROCHE_CAPTEUR = 5;
 
