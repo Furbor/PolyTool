@@ -73,6 +73,6 @@ Le module fonctionne correctement et nous affiche les valeurs de l'humidité et 
 
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Modules%20r%C3%A9unis%20-%20Montage.png"/>
 
-- Une fois le montage terminée, nous nous sommes occupés de la rédaction du <a href ="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Modules%20r%C3%A9unis%20(Bluetooth).ino">programme</a> regroupant ces 5 modules. 
+- Une fois le montage terminée, nous nous sommes occupés de la rédaction du <a href ="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Modules%20r%C3%A9unis%20(Bluetooth).ino">programme</a> regroupant tous ces modules. 
 
 - Je me suis ensuite concentré sur le module LM335Z. Ce module est utilisé pour la température corporelle. Une fois le montage effectué ainsi que le code écrit, ce module ne nous renvoie que des valeurs analogique entre 1024 et 1016, malgré les 2 résistances de 1kohm mise en série entre la sortie et le 5V. 
