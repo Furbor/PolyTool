@@ -1,4 +1,5 @@
-// Programme final pour le projet PolyTool
+/* Programme final pour le projet PolyTool associant tous les modules fonctionnels à ce jour (25/02/2019)
+et alliant le Bluetooth pour l'envoi des données sur le téléphone */
 
 // Code pour le module Bluetooth
 #include <SoftwareSerial.h>
