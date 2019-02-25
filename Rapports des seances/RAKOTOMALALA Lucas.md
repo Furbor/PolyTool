@@ -93,8 +93,22 @@ J'ai par ailleurs ajouter une fonction de <em>buzzer</em> (de son) pour avertir 
 
 • Je vais, pendant la séance, chercher des modèles 3D (quitte à les modifier), pour accueillir notre projet. J'ai trouvé un modèle 3D intéressant <a href="https://cults3d.com/fr/mod%C3%A8le-3d/outil/arduino-box-boite-arduino">ici</a>, mais il ne semble pas être adapté à notre carte Arduino et ce qui est branché. Je vais donc faire le pièce chez moi pour éviter d'empiéter du temps dans la séance.
 
-• J'ai récupéré le moudle <strong>LM335Z</strong>, qui va nous permettre de capter la température corporelle du l'utilisateur. J'ai modifié un programme trouvé sur Internet pour notre module. Je suis arrivé au programme suivant : <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LM335Z.ino">LM335Z.ino</a>. Le montage est le suivant : <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Module%20LM335Z%20-%20Montage.png" alt="Montage du module LM335Z"/>
+• J'ai récupéré le module <strong>LM335Z</strong>, qui va nous permettre de capter la température corporelle du l'utilisateur. J'ai modifié un programme trouvé sur Internet pour notre module. Je suis arrivé au programme suivant : <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LM335Z.ino">LM335Z.ino</a>. Le montage est le suivant : <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Module%20LM335Z%20-%20Montage.png" alt="Montage du module LM335Z"/>
 Cependant, le programme n'affiche pas les valeurs attendues. Ceci est dû à une résistance trop petite. En effet, j'utilise une résistance de 330 Ohms, alors que la résistance conseillée est de 2000 Ohms. L'intensité du courant est donc trop grande, ce qui a pour effet d'avoir une tension constante à 5V, empêchant alors des mesures correctes.
 
+<hr>
 
+<h2>• Pendant les vacances du 18 Février 2019 (Hiver) :</h2>
 
+• J'ai tenté de faire un modèle 3D pour accueillir notre projet en vain. En effet, nous n'avions pas encore une forme finale de ce que nous souhaitons proposer. Je me suis tout de même renseigné pour faire un modèle 3D propre, compatible avec une imprimante 3D.
+
+<hr>
+
+<h2>• Rapport de la séance 7 du Lundi 25 Février 2019 :</h2>
+
+• Tout d'abord, j'ai essayé de faire fonctionner le module <strong>LM335Z</strong>, sans succèes, malgré de nombreuses recherches sur des forums (anglais et celui d'Arduino français). J'ai également regardé le <em>datasheet</em> du module, qui est disponible <a href="http://www.datasheetcatalog.net/datasheets_pdf/L/M/3/3/LM335Z.shtml">ici</a>. Je n'ai tout de même pas réussi à avoir une température correcte. J'ai alors donné le relais à mon camarade <strong>Damien</strong> pour qu'il tente à son tour de faire fonctionner ce module.
+
+• J'ai également fait le programme qui réunit tous les modules qui fonctionnent à la rédaction de ce rapport (c'est-à-dire le jour même). Il est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Modules%20r%C3%A9unis%20(Bluetooth).ino">ici</a>. Des commentaires ont été ajouté (par <em>Damien</em> et moi) pour une meilleure compréhension du programme disponible plus haut. En effet, étant assez long, on a essayé de clarifier ledit programme. Mon camarade <strong>Damien</strong> s'est chargé du montage sur l'ancienne carte.
+
+• Monsieur Pascal Masson nous a également distribué une nouvelle carte Arduino qui accueillera notre projet final. J'ai alors refait le montage entier avec l'aide de <em>Damien</em> sur la nouvelle carte. Le montage est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Modules%20r%C3%A9unis%20-%20Montage%20sur%20Arduino%20Uno%20R3.png">ici</a> et visible ci-dessous :
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Modules%20r%C3%A9unis%20-%20Montage%20sur%20Arduino%20Uno%20R3.png" alt="Montage de tous les modules réunis fonctionnels sur la nouvelle carte Arduino Uno R3"/>
