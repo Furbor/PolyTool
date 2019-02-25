@@ -27,13 +27,13 @@ const byte DHT_CHECKSUM_ERROR = 2; // Données reçues erronées
 
 
 // Préfixe pour l'utilisation du Bluetooth
-String prefixe_H = "*H"; //humidité
-String prefixe_T = "*T"; //température
-String prefixe_son = "*S"; //son
-String prefixe_texte = "*L"; //luminosité
-String prefixe_V = "*V"; //vitesse
-String prefixe_D = "*D"; //distance
-String prefixe_bpm = "*B"; //rythme cardiaque
+String prefixe_H = "*H"; // Humidité
+String prefixe_T = "*T"; // Température
+String prefixe_son = "*S"; // Son
+String prefixe_texte = "*L"; // Luminosité
+String prefixe_V = "*V"; // Vitesse
+String prefixe_D = "*D"; // Distance
+String prefixe_bpm = "*B"; // Rythme cardiaque
 
 // Autres variables
   // Pour le DHT11
@@ -53,8 +53,8 @@ String prefixe_bpm = "*B"; //rythme cardiaque
     float pi=3.14159;
     unsigned long temps;
     long delai=1000;
-  // pour le Pulse sensor
-    int Threshold = 225; //Seuil pour déterminer à partir de combien on compte qu'il s'agit d'un battement
+  // Pour le Pulse sensor
+    int Threshold = 225; // Seuil pour déterminer à partir de combien on compte qu'il s'agit d'un battement
 
 void setup() {
   Serial.begin(9600);
