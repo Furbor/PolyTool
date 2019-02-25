@@ -1,4 +1,4 @@
-//Programme final pour le projet PolyTool
+// Programme final pour le projet PolyTool
 
 // Code pour le module Bluetooth
 #include <SoftwareSerial.h>
