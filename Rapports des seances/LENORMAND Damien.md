@@ -66,3 +66,11 @@ Le module fonctionne correctement et nous affiche les valeurs de l'humidité et 
 - Dans un premier temps, je suis retourné sur le programme pour le logo-sensor (vitesse, distance, ...). J'ai separé tous les différentes opérations du calcul pour la vitesse afin de voir d'ou vient l'erreur du 0. L'erreur venait du fait que le rayon de la roue était en kilomètre et non en mètre. La valeur de la vitesse instantanée est maintenant vrai. L'autre problème était que lorsque l'aimant passé devant le capteur, il comptait trop de tours. On a donc ajouter un délai dans l'interruption. Le <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20avec%20interrruption%20(3.0).ino">code</a> donne maintenant les valeurs de la vitesse instantanée ainsi que la distance parcourue.
 
 - Je me suis ensuite occupé d'allier le module DHT11 et le module LOGO sensor avec le module bluetooth, afin d'avoir les valeurs sur le téléphone. Les codes sont <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/DHT11%20(Bluetooth).ino">ici</a> et <a href="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/LOGO-sensor%20avec%20interruption%20(final%20-%20Bluetooth).ino">la</a>.
+
+<h2>- Séance du 25 fevrier :</h2>
+
+- Dans un premier temps, j'ai effectué le montage regrouppant tous les différets modules, sauf le LM335 utilisé pour la température corporelle.
+
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Modules%20r%C3%A9unis%20-%20Montage.png"/>
+
+- Une fois le montage terminée, Lucas s'est occupé des codes, je me suis concentré sur le module LM335Z. Ce module est utilisé pour la température corporelle. Une fois le montage effectué ainsi que le code écrit, ce module ne nous renvoie que des valeurs analogique entre 1024 et 1016, malgré les 2 résistances de 1kohm mise en série entre la sortie et le 5V. 
