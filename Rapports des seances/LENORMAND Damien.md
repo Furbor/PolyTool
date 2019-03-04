@@ -91,4 +91,7 @@ Côté opposé :
 
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Face%20avant%20(route).png"/>
 
+Il peut y avoir une batterie à la place de cable USB.
+
+
 - Je me suis ensuite renseigné sur le dernier module qui nous a été fourni, le MLX90614, module utilisé pour la température d'un corps ou objet proche du capteur.
