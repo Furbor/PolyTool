@@ -76,3 +76,19 @@ Le module fonctionne correctement et nous affiche les valeurs de l'humidité et 
 - Une fois le montage terminée, nous nous sommes occupés de la rédaction du <a href ="https://github.com/PolyTool/PolyTool/blob/master/Codes%20Arduino/Modules%20r%C3%A9unis%20(Bluetooth).ino">programme</a> regroupant tous ces modules. 
 
 - Je me suis ensuite concentré sur le module LM335Z. Ce module est utilisé pour la température corporelle. Une fois le montage effectué ainsi que le code écrit, ce module ne nous renvoie que des valeurs analogique entre 1024 et 1016, malgré les 2 résistances de 1kohm mise en série entre la sortie et le 5V. 
+
+<h2>- Séance du 4 Mars :</h2>
+
+- Je me suis occupé de faire un dessin sur papier de la futur boite contenant tout le projet, avec prise de mesure de la care arduino et de la petite plaque l'accompagnant pour les branchements. Cette boite contiendra 4 ouvertures, afin de laisser sortir les modules devant être à l'exterieur. Seul le module bluetooth restera à l'interieur de cette boite. 
+
+- Dessin de la boite :
+
+Côté face à l'utilisateur :
+
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Face%20arri%C3%A8re%20(utilisateur).png"/>
+
+Côté opposé :
+
+<img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Face%20avant%20(route).png"/>
+
+- Je me suis ensuite renseigné sur le dernier module qui nous a été fourni, le MLX90614, module utilisé pour la température d'un corps ou objet proche du capteur.
