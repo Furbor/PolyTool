@@ -112,3 +112,13 @@ Cependant, le programme n'affiche pas les valeurs attendues. Ceci est dû à une
 
 • Monsieur Pascal Masson nous a également distribué une nouvelle carte Arduino qui accueillera notre projet final. J'ai alors refait le montage entier avec l'aide de <em>Damien</em> sur la nouvelle carte. Le montage est disponible <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Modules%20r%C3%A9unis%20-%20Montage%20sur%20Arduino%20Uno%20R3.png">ici</a> et visible ci-dessous :
 <img src="https://github.com/PolyTool/PolyTool/blob/master/Ressources/Modules%20r%C3%A9unis%20-%20Montage%20sur%20Arduino%20Uno%20R3.png" alt="Montage de tous les modules réunis fonctionnels sur la nouvelle carte Arduino Uno R3"/>
+
+<hr>
+
+<h2>• Rapport de la séance 8 du Lundi 4 Mars 2019 :</h2>
+
+• À défaut d'avoir un nouveau module pour le <em>capteur de pouls</em>, nous avons réfléchi quant à une boîte pour accueillir notre projet. Un dessin a été réalisé par <strong>Damien</strong>. Nous avons fini par dire que le meilleur choix est de faire une boîte avec des planches découpées. Nous irons au <em>FabLab</em> ce <strong>Jeudi 7 Mars 2019</strong> pour faire ladite boîte puisqu'aujourd'hui le <em>FabLab</em> n'est pas ouvert.
+
+• J'ai commencé à écrire le rapport final du projet. Il sera bientôt disponible.
+
+• Un nouveau moudle nous a été distribué par Monsieu Pascal Masson. Ce module s'appelle le <strong>HW-691</strong> et permet de capter la température de l'entité la plus proche du capteur. De base, nous aurions voulu utilisé ce module pour avoir la température de l'utilisateur. Cependant, nous ne souhaitons pas faire un long cable comme celui du <strong>Pulse sensor</strong> pour cela. Ainsi, nous pouvons utilisé ce module pour avoir la température de la carte pour éviter une surchauffe ou en tout cas une température anormale de la carte.
