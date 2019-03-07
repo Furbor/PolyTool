@@ -1,9 +1,11 @@
 <h1>Cahier des charges du projet Arduino <em>PolyTool</em>.</h1>
 
-
-<h1>Contexte et définition :</h1>
+<hr>
+<h1>• Contexte et définition :</h1>
 Nous avons imaginé un tel outil suite aux besoins de certains sportifs (amateur ou professionnel). L'idée de ce projet est donc de créer un outil polyvalent, d'où son nom <em>PolyTool</em> (mais aussi parce que nous venons de <em>Polytech</em>), afin que ces derniers ne soient pas en peine lorsqu'il s'agit de technologies. Sur cet outil, il y aura une multitude de modules. Ces modules permettent d'avoir des informations intéressantes pendant que nous sommes en train de s'entraîner, comme notamment le <strong>rythme cardiaque</strong> utile pour les personnes atteintes d'<em>hypertension</em> mais voulant tout de même faire du sport.
-<h1>Objectifs du projet :</h1>
+
+<hr>
+<h1>• Objectifs du projet :</h1>
 • Offrir un outil délivrant des informations importantes aux sportifs durant leurs entraînements.
 <br>
 • Aider l'utilisateur à dépasser ses limites grâce à l'enregistrement des données de chaque entraînement. 
@@ -23,7 +25,9 @@ Le projet aura pour but de :
 <br>
 <br>
 La vitesse et le nombre de kilomètre parcouris est donnée pour les personnes étant sur un vélo car nous utiliserons un module qui détecte le passage d'un aimant.
-<h1>Enveloppe budgétaire :</h1>
+
+<hr>
+<h1>• Enveloppe budgétaire :</h1>
 Le prix global du projet n'excède pas 25€ (en prenant en compte le fait que nous disposons déjà d'une carte Arduino). On peut monter jusqu'à 35€ en fonction des prix du marché.
 En effet, voici ce dont nous avons besoin, avec le prix et le lien où nous pouvons retrouver les modules :
 <br>
@@ -43,7 +47,9 @@ En effet, voici ce dont nous avons besoin, avec le prix et le lien où nous pouv
   <strong>Prix :</strong> 4€.
 <br>
   • 1 aimant pour simuler l'armature d'un vélo.
-<h1>Délais de réalisation :</h1>
+  
+<hr>
+<h1>• Délais de réalisation :</h1>
 Je vous invite à voir le diagramme de Gantt que nous avons réalisé. Il est disponible ci-dessous :
 <img src="https://raw.githubusercontent.com/PolyTool/PolyTool/master/Ressources/Diagramme%20de%20Gantt.png" alt="Diagramme de Gantt du projet PolyTool"/>
 <br>
