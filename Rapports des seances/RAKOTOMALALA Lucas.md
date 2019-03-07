@@ -117,8 +117,17 @@ Cependant, le programme n'affiche pas les valeurs attendues. Ceci est dû à une
 
 <h2>• Rapport de la séance 8 du Lundi 4 Mars 2019 :</h2>
 
-• À défaut d'avoir un nouveau module pour le <em>capteur de pouls</em>, nous avons réfléchi quant à une boîte pour accueillir notre projet. Un dessin a été réalisé par <strong>Damien</strong>. Nous avons fini par dire que le meilleur choix est de faire une boîte avec des planches découpées. Nous irons au <em>FabLab</em> ce <strong>Jeudi 7 Mars 2019</strong> pour faire ladite boîte puisqu'aujourd'hui le <em>FabLab</em> n'est pas ouvert. Nous avons utilisé <a href="http://carrefour-numerique.cite-sciences.fr/fablab/wiki/doku.php?id=machines:decoupe_laser:trucs_astuces:generateur_boite_encoches">ce site</a> pour générer le fichier pour la découpe de la boîte, et nous avons alors le <a href="https://github.com/PolyTool/PolyTool/blob/master/Ressources/box_910x810x710_5mm.svg">fichier suivant</a>. Les caractéristiques de la boîte sont les suivantes : profondeur : 810mm, hauteur : 710mm, largeur : 910mm, largeur des encoches : 20mm, épaisseur du matériau : 5mm.
+• À défaut d'avoir un nouveau module pour le <em>capteur de pouls</em>, nous avons réfléchi quant à une boîte pour accueillir notre projet. Un dessin a été réalisé par <strong>Damien</strong>. Nous avons fini par dire que le meilleur choix est de faire une boîte avec des planches découpées. Nous irons au <em>FabLab</em> ce <strong>Jeudi 7 Mars 2019</strong> pour faire ladite boîte puisqu'aujourd'hui le <em>FabLab</em> n'est pas ouvert. Nous avons utilisé <a href="http://carrefour-numerique.cite-sciences.fr/fablab/wiki/doku.php?id=machines:decoupe_laser:trucs_astuces:generateur_boite_encoches">ce site</a> pour générer le fichier pour la découpe de la boîte, et nous avons alors le <a href="https://github.com/Furbor/PolyTool/blob/master/Ressources/Bo%C3%AEte%20sans%20modification%20de%20PolyTool.svg">fichier suivant</a>. Les caractéristiques de la boîte sont les suivantes : profondeur : 81mm, hauteur : 71mm, largeur : 91mm, largeur des encoches : 15mm, épaisseur du matériau : 5mm.
 
 • J'ai commencé à écrire le rapport final du projet.
 
 • Un nouveau module nous a été distribué par Monsieur Pascal Masson. Ce module s'appelle le <strong>HW-691</strong> et permet d'évaluer la température de l'entité la plus proche du capteur. De base, nous aurions voulu utilisé ce module pour avoir la température de l'utilisateur. Cependant, nous ne souhaitons pas faire un long cable comme celui du <strong>Pulse sensor</strong> pour cela. Ainsi, nous pouvons utilisé ce module pour avoir la température de la carte pour vérifier la température de l'ensemble.
+
+<hr>
+
+<h2>• Rapport de la session au FabLab du Jeudi 7 Mars 2019 :</h2>
+
+<hr>
+<strong>But :</strong> Découper la planche de bois que nous avons préparé lors de la <a href="https://github.com/Furbor/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-8-du-lundi-4-mars-2019-">séance 8</a>.
+
+• J'ai installé <em><a href="https://inkscape.org/fr/">Inkscape</a></em> pour modifier le fichier que nous avons généré lors de la séance précédente. J'ai alors obtenu le fichier qui est disponible <a href="https://github.com/Furbor/PolyTool/blob/master/Ressources/Bo%C3%AEte%20finale%20de%20PolyTool.svg">ici</a>. J'ai ajouté des trous pour correspondre aux dessins de mon camarade <strong>Damien</strong> (dessins réalisés lors de la précédente séance également, et disponible sur <a href="https://github.com/Furbor/PolyTool/blob/master/Rapports%20des%20seances/LENORMAND%20Damien.md#--s%C3%A9ance-du-4-mars-">son compte-rendu</a>).
