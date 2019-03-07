@@ -21,6 +21,7 @@ Le projet aura pour but de :
 <br>
 • donner la vitesse de l'utilisateur et le nombre de kilomètres parcourus.
 <br>
+<br>
 La vitesse et le nombre de kilomètre parcouris est donnée pour les personnes étant sur un vélo car nous utiliserons un module qui détecte le passage d'un aimant.
 <h1>Enveloppe budgétaire :</h1>
 Le prix global du projet n'excède pas 25€ (en prenant en compte le fait que nous disposons déjà d'une carte Arduino). On peut monter jusqu'à 35€ en fonction des prix du marché.
