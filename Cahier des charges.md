@@ -2,22 +2,25 @@
 
 
 <h1>Contexte et définition :</h1>
-Nous avons imaginé un tel outil suite aux besoins de certains cyclistes. En effet, nombreux sont ceux utilisant d'anciens modèles de vélos. Ils ne disposent donc pas de toutes les dernières technologies que l'on peut potentiellement retrouver dans les modèles les plus récents. L'idée est donc de créer un outil polyvalent, d'où son nom <em>PolyTool</em>, afin que ces derniers ne soient pas en peine en question de technologies. Sur cet outil, il y aura une multitude de modules. Ces modules permettent d'avoir des informations intéressantes pendant que nous sommes en train de pédaler, comme notamment le <strong>rythme cardiaque</strong> utile pour les personnes atteintes d'<em>hypertension</em> mais voulant tout de même faire du sport.
+Nous avons imaginé un tel outil suite aux besoins de certains sportifs (amateur ou professionnel). L'idée de ce projet est donc de créer un outil polyvalent, d'où son nom <em>PolyTool</em> (mais aussi parce que nous venons de <em>Polytech</em>), afin que ces derniers ne soient pas en peine lorsqu'il s'agit de technologies. Sur cet outil, il y aura une multitude de modules. Ces modules permettent d'avoir des informations intéressantes pendant que nous sommes en train de s'entraîner, comme notamment le <strong>rythme cardiaque</strong> utile pour les personnes atteintes d'<em>hypertension</em> mais voulant tout de même faire du sport.
 <h1>Objectifs du projet :</h1>
-Offrir un outil délivrant des informations importantes au cycliste durant son parcours.
+• Offrir un outil délivrant des informations importantes aux sportifs durant leurs entraînements.
+• Aider l'utilisateur à dépasser ses limites grâce à l'enregistrement des données de chaque entraînement. 
 <h1>Description fonctionnel du projet :</h1>
-Le fonctionnement de <em>PolyTool</em> est simple. Lorsque l'utilisateur sera en train de pédaler, des informations seront récoltées grâce aux différents modules et vont permettre de lui donner des informations utiles tout au long de son trajet.
+Le fonctionnement de <em>PolyTool</em> est simple. Lorsque l'utilisateur sera en train de faire du sport, des informations seront récoltées grâce aux différents modules et vont permettre de lui donner des informations utiles tout au long de son trajet.
 Le projet aura pour but de :
 <br>
-• donner la température ambiante
+• donner la température ambiante.
 <br>
-• donner la température corporelle de l'utilisateur
+• donner la température corporelle de l'utilisateur.
 <br>
-• allumer des LED en cas de faible luminosité
+• allumer des LED en cas de très faible luminosité.
 <br>
-• donner le rythme cardique du l'utilisateur
+• donner le rythme cardique du l'utilisateur.
 <br>
-• donner sa vitesse et le nombre de kilomètres parcourus
+• donner la vitesse de l'utilisateur et le nombre de kilomètres parcourus.
+<br>
+La vitesse et le nombre de kilomètre parcouris est donnée pour les personnes étant sur un vélo car nous utiliserons un module qui détecte le passage d'un aimant.
 <h1>Enveloppe budgétaire :</h1>
 Le prix global du projet n'excède pas 25€ (en prenant en compte le fait que nous disposons déjà d'une carte Arduino). On peut monter jusqu'à 35€ en fonction des prix du marché.
 En effet, voici ce dont nous avons besoin, avec le prix et le lien où nous pouvons retrouver les modules :
