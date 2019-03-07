@@ -5,6 +5,7 @@
 Nous avons imaginé un tel outil suite aux besoins de certains sportifs (amateur ou professionnel). L'idée de ce projet est donc de créer un outil polyvalent, d'où son nom <em>PolyTool</em> (mais aussi parce que nous venons de <em>Polytech</em>), afin que ces derniers ne soient pas en peine lorsqu'il s'agit de technologies. Sur cet outil, il y aura une multitude de modules. Ces modules permettent d'avoir des informations intéressantes pendant que nous sommes en train de s'entraîner, comme notamment le <strong>rythme cardiaque</strong> utile pour les personnes atteintes d'<em>hypertension</em> mais voulant tout de même faire du sport.
 <h1>Objectifs du projet :</h1>
 • Offrir un outil délivrant des informations importantes aux sportifs durant leurs entraînements.
+<br>
 • Aider l'utilisateur à dépasser ses limites grâce à l'enregistrement des données de chaque entraînement. 
 <h1>Description fonctionnel du projet :</h1>
 Le fonctionnement de <em>PolyTool</em> est simple. Lorsque l'utilisateur sera en train de faire du sport, des informations seront récoltées grâce aux différents modules et vont permettre de lui donner des informations utiles tout au long de son trajet.
