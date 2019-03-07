@@ -41,9 +41,7 @@ En effet, voici ce dont nous avons besoin, avec le prix et le lien où nous pouv
   • <a href="https://www.amazon.fr/Daorier-magn%C3%A9tique-lin%C3%A9aire-Capteur-Arduino/dp/B06WWHZ4C6/">Capteur à Effet Hall</a>.
   <strong>Prix :</strong> 4€.
 <br>
-  • 1 aimant.
-<br>
-  • 1 vélo. Dans notre cas, l'<strong>armature d'une roue de vélo</strong> suffira pour les différents tests (?).
+  • 1 aimant pour simuler l'armature d'un vélo.
 <h1>Délais de réalisation :</h1>
 Je vous invite à voir le diagramme de Gantt que nous avons réalisé. Il est disponible ci-dessous :
 <img src="https://raw.githubusercontent.com/PolyTool/PolyTool/master/Ressources/Diagramme%20de%20Gantt.png" alt="Diagramme de Gantt du projet PolyTool"/>
