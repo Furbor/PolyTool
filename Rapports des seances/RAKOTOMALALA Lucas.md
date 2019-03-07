@@ -128,7 +128,7 @@ Cependant, le programme n'affiche pas les valeurs attendues. Ceci est dû à une
 <h2>• Rapport de la session au <em>FabLab</em> du Jeudi 7 Mars 2019 :</h2>
 
 <hr>
-<strong>But :</strong> Découper la planche de bois que nous avons préparé lors de la <a href="https://github.com/Furbor/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-8-du-lundi-4-mars-2019-">séance 8</a> et faire assembler les différentes pièces.
-
+<strong>But :</strong> Découper la planche de bois que nous avons préparé lors de la <a href="https://github.com/Furbor/PolyTool/blob/master/Rapports%20des%20seances/RAKOTOMALALA%20Lucas.md#-rapport-de-la-s%C3%A9ance-8-du-lundi-4-mars-2019-">séance 8</a> et assembler les différentes pièces.
+<br>
 <br>
 • J'ai installé <em><a href="https://inkscape.org/fr/">Inkscape</a></em> pour modifier le fichier que nous avons généré lors de la séance précédente. J'ai alors obtenu le fichier qui est disponible <a href="https://github.com/Furbor/PolyTool/blob/master/Ressources/Bo%C3%AEte%20finale%20de%20PolyTool.svg">ici</a>. J'ai ajouté des trous pour correspondre aux dessins de mon camarade <strong>Damien</strong> (dessins réalisés lors de la précédente séance également, et disponible sur <a href="https://github.com/Furbor/PolyTool/blob/master/Rapports%20des%20seances/LENORMAND%20Damien.md#--s%C3%A9ance-du-4-mars-">son compte-rendu</a>).
